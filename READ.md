@@ -29,16 +29,21 @@ click test connection to test the connection. if it shows successfull connection
 password: user
 
 `SHOW DATABASES;` to check the list of databases; check if isolation_demo is in the list
+
 `SELECT SLEEP(5);` to check if your environment supports the sleep() function
 
 `USE isolation_demo;` to select database
+
 `SELECT DATABASE();` to check if `isolation_demo` is the active database
 
 `DESCRIBE Accounts` to show the columns or fields
+
 `SELECT * FROM Accounts LIMIT 10;` to show 10 rows of the data
 
 `SOURCE name.sql` change name to the filename of the experiment
 
 NTS: (for me) 
+
 -- a. balance_amt in setting the changes
+
 -- b. account_no = 409000611074
