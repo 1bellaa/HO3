@@ -73,5 +73,5 @@ WHERE balance_amt > 1000;
 DO SLEEP(2);
 SELECT COUNT(*) AS "Transaction B (Post-Insert Count)" 
 FROM Accounts 
-WHERE balance_amt > 1000;
+WHERE balance_amt > 10000;
 COMMIT;
